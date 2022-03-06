@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/facil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Facil"
+        android:textSize="12pt"
+        android:fontFamily="@font/tictactoe" />
+
+    <Button
+        android:id="@+id/medio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/tictactoe"
+        android:textSize="12pt"
+        android:text="Medio"
+        app:layout_constraintTop_toBottomOf="@+id/facil" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
